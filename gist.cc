@@ -17,7 +17,7 @@ void dfs(std::ostream& output) const {
         output << node->value() << std::endl;
     }
 
-    void bfs(std::ostream& output) const {
+void bfs(std::ostream& output) const {
     std::list<graph*> list;
 
     auto children = _g->children();
